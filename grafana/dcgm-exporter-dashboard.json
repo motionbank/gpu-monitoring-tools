@@ -312,17 +312,14 @@
       "id": 16,
       "links": [],
       "options": {
-        "fieldOptions": {
-          "reduceOptions": {
-            "values": false,
-            "calcs": [
-              "last"
-            ],
-            "fields": ""
-          },
+        "reduceOptions": {
+          "values": false,
           "calcs": [
-            "sum"
+            "last"
           ],
+          "fields": ""
+        },
+        "fieldOptions": {
           "defaults": {
             "color": {
               "mode": "thresholds"
